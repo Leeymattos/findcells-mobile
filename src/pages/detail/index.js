@@ -64,6 +64,11 @@ export default function Detail() {
           </View>
 
           <View style={styles.contentContainer}>
+            <Text style={styles.label}>Dias: </Text>
+            <Text style={styles.content}>{cell.day}</Text>
+          </View>
+
+          <View style={styles.contentContainer}>
             <Text style={styles.label}>Horário: </Text>
             <Text style={styles.content}>{cell.schedule}</Text>
           </View>
